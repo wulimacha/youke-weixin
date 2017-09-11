@@ -1,0 +1,40 @@
+.swiper-tab{
+  background-color:rgb(53,53,53);
+}
+.swiper-tab-list{
+  width:50%;
+  text-align: center;
+  display:inline-block;
+  color:white;
+  padding: 15px 0;
+}
+.on{ 
+  color: #da7c0c; 
+   border-bottom: 5rpx solid #da7c0c; 
+    }  
+.swiper-item{
+  background-color:rgb(243,243,243)
+}
+.view_1{
+  margin-top:10px;
+  background-color:white;
+  border:1px solid rgb(244,244,244);
+  padding:10px;
+  height:80px;
+}
+.view_1 image{
+  height:80px;
+  float:left;
+  width:80px;
+}
+.text_1{
+  margin-left:20px;
+  margin-top:10px;
+  font-size:13px;
+  color:rgb(153, 153, 153)
+}
+.text_2{
+  font-size:20px;
+  color:rgb(255,70,78);
+  float:right
+}

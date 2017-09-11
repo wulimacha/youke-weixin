@@ -1,0 +1,41 @@
+<!--pages/partime/partime.wxml-->
+<view class="swiper-tab">  
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">传单</view>  
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">外卖</view>  
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">饭堂</view> 
+  <!-- <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">44</view> 
+  <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">55</view> -->    
+</view>   
+   
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+  <!-- 我是哈哈 -->  
+  <swiper-item>  
+   <view style='margin-top:15px;height:20px;padding 0 5px;' >
+    <image src="../../img/file_591d13ff92192.png" style='width:50px;height:40px;float:left;'></image>
+    <text style='font-size:17px;color:rgba(0,0,0,0.5);'>急招传单小哥，男女不限</text>
+    <image src='../../img/file_57bbc6b17178a.png'  style="width:10px;height:10px;float:right;margin-top:15px"></image>
+   </view>  
+  </swiper-item>  
+  <!-- 我是呵呵 -->  
+  <swiper-item>  
+  <view style='margin-top:15px;' >
+    <image src="../../img/file_59129b340068e.png" style='width:70px;height:40px;float:left;'></image>
+    <text style='font-size:15px;color:rgba(0,0,0,0.5);'>急招外卖小哥，男女不限</text>
+    <image src='../../img/file_57bbc6b17178a.png'  style="width:10px;height:10px;float:right;margin-top:15px"></image>
+   </view>  
+  </swiper-item>  
+  <!-- 我是嘿嘿 -->  
+  <swiper-item>  
+   <view style='margin-top:15px;' >
+    <image src="../../img/file_59129b340068e.png" style='width:70px;height:40px;float:left;'></image>
+    <text style='font-size:15px;color:rgba(0,0,0,0.5);'>急招传单小哥，男女不限</text>
+    <image src='../../img/file_57bbc6b17178a.png'  style="width:10px;height:10px;float:right;margin-top:15px"></image>
+   </view>   
+  </swiper-item>  
+  <!-- <swiper-item>  
+   <view>我是嘿嘿</view>  
+  </swiper-item>  
+  <swiper-item>  
+   <view>我是嘿嘿</view>  
+  </swiper-item>   -->
+</swiper> 

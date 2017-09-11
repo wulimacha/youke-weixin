@@ -1,0 +1,44 @@
+<!-- 顶部 -->
+<view class="top_v" >
+<image class="img_1" src="{{userInfo.avatarUrl}}" ></image>
+<text >{{userInfo.nickName}}</text>
+<image class="img_2" src="../../img/20170830100502.png"  />
+</view>
+<view style="height:460px;background-color:rgb(243,243,243)">
+<view style="height:10px"></view>
+<!-- 收获地址 -->
+<view class="v_1" >
+<image class="img_3" src="../../img/20170830102503.png" ></image>
+<text >收获地址</text>
+<image class="img_4" src="../../img/file_57bbc6b17178a.png"  />
+</view>
+<view style="height:2px"></view>
+<!--我的订单 -->
+<view class="v_1">
+<image class="img_3" src="../../img/20170830102516.png" s></image>
+<text >我的订单</text>
+<image class="img_4" src="../../img/file_57bbc6b17178a.png"  />
+</view>
+<view style="height:10px"></view>
+<!--购物车 -->
+<view class="v_1">
+<image class="img_3" src="../../img/20170830102529.png" ></image>
+<text >购物车</text>
+<image class="img_4" src="../../img/file_57bbc6b17178a.png"  />
+</view>
+<view style="height:2px"></view>
+<!--系统通知 -->
+<view class="v_1">
+<image class="img_3" src="../../img/20170830102547.png" ></image>
+<text>系统通知</text>
+<image class="img_4" src="../../img/file_57bbc6b17178a.png"  />
+</view>
+<view style="height:2px"></view>
+<!--优惠券 -->
+<view class="v_1">
+<image class="img_3" src="../../img/20170830102558.png" ></image>
+<text >优惠券</text>
+<image class="img_4"  src="../../img/file_57bbc6b17178a.png"  />
+</view>
+<view style="height:2px"></view>
+</view>

@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/periphery/periphery",
+    "pages/presonnal/presonnal",
+    "pages/Community/Community",
+    "pages/scolife/scolife",
+    "pages/test/test_index",
+    "pages/partime/partime",
+    "pages/Post/Post"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "Color": "rgb(153, 153, 153)",
+    "selectedColor": "rgb(53, 53, 53)",
+    "borderStyle": "rgb(153, 153, 153)",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/file_58b52ec40e7af.png",
+        "selectedIconPath": "img/file_58b52ec4839c0.png"
+      },
+      {
+        "pagePath": "pages/periphery/periphery",
+        "text": "周边",
+        "iconPath": "img/file_58b52ec3f1547.png",
+        "selectedIconPath": "img/file_58b52ec4001cc.png"
+      },
+      {
+        "pagePath": "pages/Community/Community",
+        "text": "社区",
+        "iconPath": "img/file_5912833e967fb.png",
+        "selectedIconPath": "img/file_5912833e8c0d1.png"
+      },
+      {
+        "pagePath": "pages/presonnal/presonnal",
+        "text": "我的",
+        "iconPath": "img/file_58b52ec485daf.png",
+        "selectedIconPath": "img/file_58b52ec48fea7.png"
+      }
+    ]
+  },
+    "networkTimeout": {
+      "request": 10000,
+      "conectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true  
+}
+

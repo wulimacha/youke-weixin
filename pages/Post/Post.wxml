@@ -1,0 +1,42 @@
+<!--pages/Post/Post.wxml-->
+<view class='container'>
+    <view class='comment'>
+        <textarea placeholder='请输入评论内容...' class='comment_area'>
+      </textarea>
+    </view>
+    <view class='comment_img'>
+        <image class='show_img' src="{{tempFilePaths}}"  mode="aspecFill"></image>
+        <navigator url="#" bindtap='chooseimage'>
+            <image class='add_img' src='../../img/fasfqasd.png'></image>
+        </navigator>
+    </view>
+    <view class='comment_seltype'>
+        <picker bindchange="bindCommunityChange" value="{{index}}" range="{{array}}" class='picker_1'>
+            <view class='community_type'>
+                社区类型：
+            </view>
+            <view class="picker">
+                {{array[index]}}
+                <image class='img_arrow' src='../../img/file_57bbc6b17178a.png'></image>
+            </view>
+        </picker>
+    </view>
+    <view class='comment_seltype1'>
+        <picker bindchange="bindContactChange" value="{{index_contact}}" range="{{array_contact}}" class='picker_1'>
+            <view class='contact_type'>
+                联系方式：
+            </view>
+            <view class="picker">
+                {{array_contact[index_contact]}}
+                <image class='img_arrow' src='../../img/file_57bbc6b17178a.png'></image>
+            </view>
+        </picker>
+    </view>
+    <view class='contact_num'>
+        <input class='input_num' placeholder='输入手机号码或微信号' type='text'>
+        </input>
+    </view>
+    <button style='width:100%' type='default'>
+        点击发送
+    </button>
+</view>

@@ -1,0 +1,199 @@
+<!-- 轮播图 -->
+<!-- <swiper indicator-dots="indicatorDots" autoplay="autoplay" interval="3000" style="width:100%"  >
+    <swiper-item>
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" style="width:100%" class="slide-image"  mode="scaleToFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" style="width:100%" class="slide-image"  mode="scaleToFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" style="width:100%" class="slide-image"  mode="scaleToFill" />
+    </swiper-item>
+</swiper>
+<!-- 分类 -->
+<!-- <view class="v_1" >
+<image src="../../img/file_592403d68b5a5.png" style="width:28%;"></image>
+<image src="../../img/file_592403d69a7c9.png" style="width:28%;"></image>
+<image src="../../img/file_592403d680fa6.png" style="wwidth:28%;"></image>
+<image src="../../img/file_591d41a219267.png" style="margin-top:20rpx;width:90%;"></image>
+</view> -->
+<!-- <view class="v_2" ></view> -->
+<!-- 帖子 -->
+
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">寻物启事</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">二手闲置</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">吐槽专区</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">表白专区</view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+    <!-- 我是哈哈 -->
+    <swiper-item>
+        <scroll-view scroll-y style="height: 100%;">
+            <view style="padding:50rpx">
+                <image class="img_1" src="../../img/file_5923fcf53bc9c.png"></image>
+                <div style="margin-left:30rpx;padding-top:30rpx">
+                    <text style="font-size:18px;color:rgb(242,179,136)">那天</text>
+                    <image class="img_2" src="../../img/20170829143253.png"></image>
+                    <text style="float:right">....</text>
+                </div>
+                <view class="v_3" style="">2017-08-21 11:42:42</view>
+                <div style="display: block;height: 0;clear: both;visibility: hidden;"></div>
+                <view style="margin-top:50rpx;">
+                    <text>功能测试中......</text>
+                    <view style="margin-top:30rpx">
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                    </view>
+                </view>
+            </view>
+            <!-- 底部栏 -->
+            <view class="v_4">
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154306.png"></image>
+                    <text style="font-size:12px;color:rgba(0,0,0,0.5)">转发</text>
+                </navigator>
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154319.png"></image>
+                    <text style="font-size:12px;color:rgba(0,0,0,0.5)">评论</text>
+                </navigator>
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154329.png"></image>
+                    <text style="font-size:12px;color:rgb(252,140,159)">点赞</text>
+                </navigator>
+            </view>
+            <view class="v_2"></view>
+            <!-- 结束 -->
+            <!-- 帖子 -->
+            <view style="padding:50rpx;">
+                <image class="img_1" src="../../img/file_5923fcf53bc9c.png"></image>
+                <div style="margin-left:30rpx;padding-top:30rpx">
+                    <text style="font-size:18px;color:rgb(242,179,136)">那天</text>
+                    <image class="img_2" src="../../img/20170829143253.png"></image>
+                    <text style="float:right">....</text>
+                </div>
+                <view class="v_3" style="">2017-08-21 11:42:42</view>
+                <div style="display: block;height: 0;clear: both;visibility: hidden;"></div>
+                <view style="margin-top:50rpx;">
+                    <text>功能测试中......</text>
+                    <view style="margin-top:30rpx">
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                        <image class="img_3" src="../../img/file_5923f9739f0a1.png"></image>
+                    </view>
+                </view>
+            </view>
+            <!-- 底部栏 -->
+            <view class="v_4">
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154306.png"></image>
+                    <text style="font-size:12px;color:rgba(0,0,0,0.5)">转发</text>
+                </navigator>
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154319.png"></image>
+                    <text style="font-size:12px;color:rgba(0,0,0,0.5)">评论</text>
+                </navigator>
+                <navigator url="navigate?title=navigate" hover-class="navigator-hover">
+                    <image src="../../img/20170829154329.png"></image>
+                    <text style="font-size:12px;color:rgb(252,140,159)">点赞</text>
+                </navigator>
+            </view>
+            <view class="v_2"></view>
+        </scroll-view>
+    </swiper-item>
+    <!-- 我是呵呵 -->
+
+    <!--二手闲置 -->
+    <swiper-item>
+        <scroll-view scroll-y style="height: 100%;">
+            <view class='flex-wrp' style='margin-top:15px;width:100%;flex-direction:row;'>
+                <view class='flex-item'>
+                    <view>
+                        <image src='../../img/file_5912833e8c0d1.png' style='height:50px;width:40px;float:left;'></image>
+                        <view>
+                            <text class='name'>nickname</text>
+                            <text class='time'>2017-09-05</text>
+                        </view>
+                        <view style='margin-left:50px;'>
+                            <view style='margin-top:15px;white-space:pre-line;word-break: break-all;text-align:left;font-size:13px;'>{{txt}}</view>
+                        </view>
+                    </view>
+                    <view  style='font-size:13px;float:left;margin-top:15px;margin-left:50px;width:100%;text-align:left;'>
+                        微信：wulimacha
+                    </view>
+                    <view class='veiw_img'>
+                        <image class='img_1' src='../../img/20170829154329.png'>
+                        </image>
+                        <image class='img_1' src='../../img/20170829154329.png'>
+                        </image>
+                        <image class='img_1' src='../../img/20170829154329.png'>
+                        </image>
+                    </view>
+                    <view class='line'></view>
+                </view>
+                <view class='flex-item' style='margin-top:15px;width:100%;flex-direction:row;'>
+                    <view>
+                        <image src='../../img/file_5912833e8c0d1.png' style='height:50px;width:40px;float:left;'></image>
+                        <view>
+                            <text class='name'>nickname</text>
+                            <text class='time'>2017-09-05</text>
+                        </view>
+                        <view style='margin-left:50px;'>
+                            <view style='margin-top:15px;white-space:pre-line;word-break: break-all;text-align:left;font-size:13px;'>{{txt}}</view>
+                        </view>
+                    </view>
+                    <view style='font-size:13px;float:left;margin-top:15px;margin-left:50px;width:100%;text-align:left;'>
+                        微信：wulimacha
+                    </view>
+                    <view class='line'></view>
+                </view>
+
+
+                <view class='flex-item' style='margin-top:15px;width:100%;flex-direction:row;'>
+                    <view>
+                        <image src='../../img/file_5912833e8c0d1.png' style='height:50px;width:40px;float:left;'></image>
+                        <view>
+                            <text class='name'>nickname</text>
+                            <text class='time'>2017-09-05</text>
+                        </view>
+                        <view style='margin-left:50px;'>
+                            <view style='margin-top:15px;white-space:pre-line;word-break: break-all;text-align:left;font-size:13px;'>{{txt}}</view>
+                        </view>
+                    </view>
+                    <view style='font-size:13px;float:left;margin-top:15px;margin-left:50px;width:100%;text-align:left;'>
+                        微信：wulimacha
+                    </view>
+                    <view class='line'></view>
+                </view>
+            </view>
+        </scroll-view>
+    </swiper-item>
+    <!--二手闲置 -->
+
+    <!-- 我是嘿嘿 -->
+    <swiper-item>
+        <text>3</text>
+    </swiper-item>
+    <swiper-item>
+        <text>4</text>
+    </swiper-item>
+</swiper>
+
+<!-- 结束 -->
+<navigator url='/pages/Post/Post'>
+<button style="width:60px;height:60px;border-radius:120px;background-color:rgb(55,224,245);position:fixed;z-index:5;top:80%;right:10%;background-image:url(../../img/fasfqasd.png);background-position:-1px 0"></button>
+</navigator>

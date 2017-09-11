@@ -1,0 +1,44 @@
+.top_v{
+  height:50px;
+  background-color:rgb(53,53,53);
+  padding:50rpx
+}
+.top_v text{
+  font-size:18px;
+  margin-left:30rpx;
+  color:white;
+  float:left;
+  margin-top:18px
+}
+.img_1{
+  float:left;
+  width:60px;
+  height:60px;
+  border-radius:120rpx
+}
+.img_2{
+  width:20px;
+  height:20px;
+  float:right;
+  margin-top:15px
+}
+.v_1{
+  background-color:white;
+  padding:15px
+}
+ .img_3{
+  width:25px;
+  height:25px;
+  float:left;
+  margin-top:-3px
+}
+.v_1 text{
+  color:#666;
+  font-size:16px;
+  margin-left:5px
+}
+.img_4{
+  width:10px;
+  height:10px;
+  float:right
+}

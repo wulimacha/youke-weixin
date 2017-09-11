@@ -1,0 +1,48 @@
+<view class="swiper-tab" >
+<view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav" >
+<image src="../../img/file_58b52ec3f1547.png" style="width:20px;height:16px;"></image>
+快递专区
+</view>
+<view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav" >
+<image src="../../img/file_58b52ec485daf.png" style="width:20px;height:16px;"></image>
+代课专区
+</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:500px" bindchange="bindChange">  
+    <!-- 快递专区 -->  
+    <swiper-item class="swiper-item" >  
+      <view class="view_1" >
+      <image src="../../img/file_5923fcf53bc9c.png" ></image>
+      <view ><text style="margin-left:20px;font-size:18px">天天快递，北门取件</text></view>
+      <view ><text class="text_1" >小物件，重约2kg</text></view>
+      <view ><text class="text_1" >送至：<text style="font-size:18px;color:black">38</text>栋</text></view>
+      <text class="text_2" >￥3.0</text>
+      </view> 
+      <view class="view_1">
+      <image src="../../img/file_5923fcf53bc9c.png" ></image>
+      <view ><text style="margin-left:20px;font-size:18px">天天快递，北门取件</text></view>
+      <view ><text class="text_1">小物件，重约2kg</text></view>
+      <view ><text class="text_1">送至：<text style="font-size:18px;color:black">38</text>栋</text></view>
+      <text class="text_2">￥3.0</text>
+      </view> 
+      
+      
+    </swiper-item>  
+    <!-- 代课专区 -->  
+    <swiper-item class="swiper-item">  
+      <view class="view_1">
+      <image  src="../../img/file_5923fcf53bc9c.png" ></image>
+      <view ><text style="margin-left:20px;font-size:18px">9月12日，8:00-11:30</text></view>
+      <view ><text class="text_1">举手点到，可玩手机</text></view>
+      <view ><text class="text_1">教学楼：<text style="font-size:18px;color:black">知行</text>楼</text></view>
+      <text class="text_2">￥25.0</text>
+      </view> 
+      <view class="view_1">
+      <image src="../../img/file_5923fcf53bc9c.png" ></image>
+      <view ><text style="margin-left:20px;font-size:18px">9月13日，8:00-11:30</text></view>
+      <view ><text class="text_1">举手点到，可玩手机</text></view>
+      <view ><text class="text_1">教学楼：<text style="font-size:18px;color:black">知行</text>楼</text></view>
+      <text class="text_2">￥25.0</text>
+      </view>   
+    </swiper-item>  
+</swiper>  

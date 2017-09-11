@@ -1,0 +1,95 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<swiper style="width:100%" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"  mode="scaleToFill" style="width:100%"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 导航 -->
+<view class="v_1"  >
+
+<!--修改_0905  -->
+<!-- <navigator  url="/pages/scolife/scolife?title=navigator"  ><image class="img_1" src="../../img/file_591d13ff76a85.png" ></image>
+<text >校内生活</text>
+</navigator> -->
+
+<navigator  url="/pages/test/test_index"><image class="img_1" src="../../img/file_591d13ff76a85.png" ></image>
+<text >校内生活</text>
+</navigator>
+
+<navigator style="margin-left:30rpx" url="/pages/partime/partime" hover-class="navigator-hover"><image src="../../img/file_591d13ff92192.png"class="img_1"></image>
+<text >兼职中心</text>
+</navigator>
+<!--修改_0905  -->
+
+<navigator style="margin-left:30rpx" url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d13ff94c5c.png" class="img_1"></image>
+<text >社团中心</text>
+</navigator>
+
+<navigator style="margin-left:30rpx" url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d140008299.png" class="img_1"></image>
+<text >校园头条</text>
+</navigator>
+
+<div style="margin-top:30rpx;" >
+<navigator  url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d140029aec.png" class="img_1"></image>
+<text >技能培训</text>
+</navigator>
+<navigator style="margin-left:30rpx" url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d140038445.png" class="img_1"></image>
+<text >校招宣讲</text>
+</navigator>
+<navigator style="margin-left:30rpx" url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d14007f68c.png" class="img_1"></image>
+<text >每日一文</text>
+</navigator>
+<navigator style="margin-left:30rpx" url="navigate?title=navigate" hover-class="navigator-hover"><image src="../../img/file_591d140098e95.png" class="img_1"></image>
+<text >暗恋专区</text>
+</navigator></div>
+</view>
+<!-- 头条区 -->
+<div style="display: block;height: 0;clear: both;visibility: hidden;"></div>
+<view style="margin-top:20px;background-color:rgb(243,243,243);height:10px"></view>
+<view style="height:10px;padding:0 20px;padding-top:20rpx;">
+<image src="../../img/file_57ac147ad9822.png" style="width:20px;height:22px;float:left;" />
+<text style="font-size:13px;color:rgba(0,0,0,0.5);margin-left:20rpx">2017年教师资格证报名开始啦</text>
+<image src="../../img/file_57bbc6b17178a.png" style="width:10px;height:10px;float:right;margin-top:5px" />
+</view>
+<view class="v_3"></view>
+<!-- 建议区 -->
+<view>
+<image src="../../img/file_5919656ca6444.jpg" style="width:100%;height:120px"></image>
+<image src="../../img/file_5919656c50f9b.jpg" style="width:50%;height:60px"></image>
+<image src="../../img/file_5919656c6f04e.jpg" style="width:50%;height:60px"></image>
+</view>
+<view class="v_3" ></view>
+<!-- 互动区 -->
+<view class="v_2">
+<text >互动区</text>
+<view style="margin-top:50rpx">
+<image src="../../img/file_59128244c359d.jpg" style="width:28%;height:60px;margin-right:20rpx"></image>
+<image src="../../img/file_5912824535b87.jpg" style="width:28%;height:60px;margin-right:20rpx"></image>
+<image src="../../img/file_59129b340068e.png" style="width:28%;height:60px;"></image>
+</view>
+</view>
+<view class="v_3" ></view>
+<!-- 最新活动 -->
+<view class="v_2" >
+<text >最新活动</text>
+<view style="margin-top:50rpx;">
+<image src="../../img/file_5923e47de5663.png" ></image>
+<image src="../../img/file_5923ff819dbaa.png" ></image>
+<image src="../../img/file_592400890a654.png" ></image>
+<image src="../../img/file_5923fcf53bc9c.png" ></image>
+</view>
+</view>
+<view class="v_3" ></view>
+<!-- 社团介绍 -->
+<view class="v_2">
+<text >社团介绍</text>
+<view style="margin-top:50rpx;margin-bottom:30rpx">
+<image src="../../img/file_5923f9739f0a1.png" ></image>
+<image src="../../img/file_5923f890caaf3.png" ></image>
+
+</view>
+</view>

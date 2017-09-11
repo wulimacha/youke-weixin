@@ -1,0 +1,97 @@
+/* pages/Post/Post.wxss */
+.container{
+ 
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 1px;
+  background-color: #aaa;
+}
+.comment{
+
+  height: 30vh; 
+  width: 100vw;
+  position: absolute;
+  background-color: white;
+}
+.comment_img{
+
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  margin-top: 30vh;
+  background-color: white;
+}
+.add_img{
+  margin-left:20rpx;
+  margin-top: 10rpx;
+  background-color: #aaa; 
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+}
+.comment_area{
+  margin-left: 50rpx;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.comment_seltype{
+  margin-top: 46vh;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.comment_seltype1{
+  margin-top:1rpx; 
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.picker{
+  float: right;
+  font-size: 13px;
+  color: grey;
+  padding-top:8rpx; 
+  padding-right: 20rpx;
+}
+.community_type{
+  float: left;
+  margin-left: 20rpx;
+}
+.contact_type{
+  float: left;
+  margin-left: 20rpx;
+}
+.picker_1{
+  width: 100vw;
+  height: 8vh;
+  padding-top: 25rpx;
+}
+.img_arrow{
+  width: 10px;
+  height:10px;
+  float: right;
+  margin-top: 10rpx;
+}
+.contact_num{
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+}
+.input_num{
+  margin-left: 50rpx;
+  height: 100%;
+  width: 100%;
+}
+.show_img{
+  margin-left:20rpx;
+  margin-top: 10rpx;
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+}
